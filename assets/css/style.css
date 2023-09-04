@@ -1,0 +1,29 @@
+header {
+    background-color: #4CBBB8;
+  }
+
+  li { color : #ECD284;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+  }
+
+  a {text-decoration: none;
+}
+
+h2 { color : #ECD284;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1 { color : white;
+    font-size: 34px;
+    font-family: "Georgia", sans-serif;
+}
+
+p { color : white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nuage {min-width : 50px;
+}
