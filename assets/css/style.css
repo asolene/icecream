@@ -38,3 +38,6 @@ input,textarea{
 .formulaire{
     display: flex; flex-direction: column;
 }
+label{
+    color: #4CBBB8;
+}
