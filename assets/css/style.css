@@ -19,3 +19,9 @@ footer{
 .reso{
     display: flex;
 }
+footer h4{
+    color: #4CBBB8;
+}
+footer svg{
+    color: #4CBBB8;
+}
