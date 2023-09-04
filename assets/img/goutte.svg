@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 103.83 96.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4cbbb8;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="28.47" y="-10.19" width="49.82" height="110.08" transform="translate(-15.48 55.71) rotate(-49)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_55" data-name="Groupe 55">
+    <g id="Groupe_58" data-name="Groupe 58">
+      <g class="cls-3">
+        <g id="Groupe_5" data-name="Groupe 5">
+          <g id="Groupe_4" data-name="Groupe 4">
+            <path id="Tracé_3" data-name="Tracé 3" class="cls-1" d="m8.64,13.28c1.63-.67,3.31-1.21,5.02-1.6,5.35-1.07,10.82-1.43,16.27-1.07,14.01.73,28.13,4.99,38.64,14.44,2.35,2.11,4.56,4.38,6.69,6.72,11.43,12.53,22.28,29.83,17.14,47.5-.23.8-.5,1.6-.8,2.38-1.75,4.59-3.99,9.61-9.01,11.29-3.73,1.21-7.76,1.11-11.42-.28-3.53-1.49-5.64-4.87-7.36-8.11-3.52-6.65-6.22-13.69-9.89-20.27-5.81-10.29-13.13-19.65-21.71-27.77-4.07-3.86-8.34-7.48-12.81-10.86-3.56-2.72-9.78-6.57-12.15-8.02-.94-.56-1.26-1.78-.71-2.73.5-.76,1.23-1.33,2.1-1.62"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
