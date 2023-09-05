@@ -1,3 +1,5 @@
+*{margin: 0;}
+
 header {
     background-color: #4CBBB8;
   }
@@ -7,8 +9,35 @@ header {
     list-style-type: none;
   }
 
-  a {text-decoration: none;
+  ul {display: flex;
+    background-color: white;
+    height: 60px; width: 400px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    border-radius: 50px;
+  }
+
+#nav {display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+#Logo img {width : 60vh;
+  display: flex;
+  justify-content: end;
 }
+
+#Logo h2 {padding-top: 10px;}
+
+#Logo
+{display: flex; flex-direction: column;
+ align-items: center;
+padding-left: 20vh;}
+
+  a {text-decoration: none;}
 
 h2 { color : #ECD284;
     font-family: 'Poppins', sans-serif;
@@ -16,14 +45,39 @@ h2 { color : #ECD284;
 }
 
 h1 { color : white;
-    font-size: 34px;
-    font-family: "Georgia", sans-serif;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
-p { color : white;
-    font-size: 14px;
+#body p { color : white;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
 }
 
 #nuage {min-width : 50px;
 }
+
+#glace img {width : 100vh;
+}
+
+#header {display: flex;
+  justify-content: space-between;
+}
+
+#body {display: flex; flex-direction: column;
+  align-items: center;
+  position : relative;
+  }
+
+#texteheader {position: absolute;
+}
+
+#body img {width: 100%;}
+
+hr {width: 100%;height: 20px;
+    border: none;}
