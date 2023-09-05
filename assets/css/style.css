@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -18,6 +19,7 @@ li {
     color: #ECD284;
     font-family: 'Poppins', sans-serif;
     list-style-type: none;
+    font-weight: 600;
 }
 
 ul {
@@ -46,7 +48,7 @@ ul {
 }
 
 #Logo h2 {
-    padding-top: 10px;
+    font-weight: 600;
 }
 
 #Logo {
@@ -113,8 +115,13 @@ h1 {
 
 hr {
     width: 100%;
-    height: 20px;
+    height: 25px;
     border: none;
+}
+
+#glace {
+    display: flex;
+    justify-content: end;
 }
 
 /* JULIE FIN */
@@ -123,18 +130,20 @@ hr {
 
 
 #ourIceCreams {
-    padding-top: 15vh;
+    padding-top: 8vh;
     padding-left: 30vh;
 }
 
 #ourIceCreams p {
     color: #4CBBB8;
     font-weight: 600;
+    font-size: 20px;
 }
 
 #iceCreamTitle {
     font-weight: 600;
     color: #ECD284;
+    font-size: 30px;
 }
 
 #containerGallery {
@@ -233,4 +242,100 @@ svg {
 
 /* SOLENE FIN*/
 
+/* MADALEN*/
 
+#cornetbleu {
+    width: 150px;
+}
+
+#instagramicon {
+    width: 30px;
+}
+
+#tripadvisoricon {
+    width: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.reso {
+    display: flex;
+}
+
+footer h4 {
+    color: #4CBBB8;
+}
+
+footer svg {
+    color: #4CBBB8;
+}
+
+body h2 {
+    color: #ECD284;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    width: 50vh;
+    border: none;
+    background-color: #F0F0F0;
+
+}
+
+input {
+    height: 4vh;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #4CBBB8;
+    font-weight: 600;
+}
+
+#form h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+button { 
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+    width: 15vh;
+    height: 5vh;
+
+    background-color: #4CBBB8;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #4CBBB8;
+    background-color: white;
+    border: solid #4CBBB8 1px;
+
+}
+
+#button {
+    display: flex;
+    justify-content: end;
+}
+/* MADALEN FIN*/

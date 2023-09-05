@@ -15,16 +15,26 @@
         <!-- partie 1 -->
         <header>
             <div id="nav">
-            <nav>
-                <ul>
-                    <a href="#contact"><li>Accueil</li></a>
-                    <a href="#apropos"><li>À propos</li></a>
-                    <a href="#nosglaces"><li>Nos glaces</li></a>
-                    <a href="#menu"><li>Menu</li></a>
-                    <a href="#nouscontacter"><li>Nous contacter</li></a>
-                </ul>
-            </nav>
-        </div>
+                <nav>
+                    <ul>
+                        <a href="#header">
+                            <li>Accueil</li>
+                        </a>
+                        <a href="#body">
+                            <li>À propos</li>
+                        </a>
+                        <a href="#ourIceCreams">
+                            <li>Nos glaces</li>
+                        </a>
+                        <a href="#menu">
+                            <li>Menu</li>
+                        </a>
+                        <a href="#form">
+                            <li>Nous contacter</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
 
             <div id="header">
 
@@ -43,21 +53,21 @@
         <hr>
 
         <div id="body">
-        <img src="/assets/img/nuageCheat.svg" alt="Nuageetgouttes">
+            <img src="/assets/img/nuageCheat.svg" alt="Nuageetgouttes">
 
             <div id="texteheader">
                 <h1>QUI SOMMES NOUS ?</h1>
 
-                 <p>Gourmands de père en fils, nous avons choisi de travailler en famille <br>
-            en famille pour vous proposer nos glaces faites maison<br>
-            avec des ingrédients de qualité et de notre belle région <br>
-            des Hauts-de-France. Petits et grands y trouveront leur bonheur <br>
-            Venez déguster nos glaces sur notre jolies terrasse ombragée <br>
-            et décorée avec goût : dépaisement garranti ! 
-        </p>
+                <p>Gourmands de père en fils, nous avons choisi de travailler en famille <br>
+                    en famille pour vous proposer nos glaces faites maison<br>
+                    avec des ingrédients de qualité et de notre belle région <br>
+                    des Hauts-de-France. Petits et grands y trouveront leur bonheur <br>
+                    Venez déguster nos glaces sur notre jolies terrasse ombragée <br>
+                    et décorée avec goût : dépaisement garranti !
+                </p>
             </div>
         </div>
-        
+
         <!-- fin partie 1 -->
 
         <!-- partie 2 -->
@@ -204,6 +214,29 @@
         <!-- fin partie 2 -->
 
         <!-- partie 3 -->
+        <div id="form">
+            <h2>Contactez nous !</h2>
+            <div class="formulaire">
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="Nom" name="Nom"  placeholder="Votre nom"> <br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"> <br>
+
+                <label for="mail">Adresse mail :</label>
+                <input type="text" id="mail" name="mail" placeholder="adresse@mail.com"><br>
+
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" rows="6" cols="50" placeholder="Votre message ici."></textarea>
+
+                <div id="button">
+                    <button type="button">Envoyer</button>
+                </div>
+                
+
+            </div>
+        </div>
         <!-- fin partie 3 -->
 
 
@@ -212,5 +245,38 @@
 
 </body>
 
+
+<footer>
+    <div>
+        <img src="assets/img/cornet-bleu.svg" alt="image du cornet-bleu" id="cornetbleu">
+    </div>
+    <div>
+        <h4>Nous contacter</h4>
+        <p>contact-us@icecream.com</p>
+        <p>tél: 00-00-00-00-00</p>
+        <p>icecream.com</p>
+    </div>
+    <div>
+        <h4>Où nous retrouver</h4>
+        <p>Liste de nos boutiques</p>
+    </div>
+    <div>
+        <h4>F.A.Q</h4>
+        <p>Allergènes</p>
+        <p>Conditions d'utilisation</p>
+        <p>Mentions légales</p>
+    </div>
+    <div>
+        <h4>Réseaux sociaux</h4>
+        <div class="reso">
+            <img src="assets/img/icons8-instagram.svg" alt="icon-instagram" id="instagramicon">
+            <p>Instagram</p>
+        </div>
+        <div class="reso">
+            <img src="assets/img/icons8-tripadvisor.svg" alt="icon-tripadvisor" id="tripadvisoricon">
+            <p>Tripadvisor</p>
+        </div>
+    </div>
+</footer>
 
 </html>
