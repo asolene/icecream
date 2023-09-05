@@ -62,8 +62,6 @@
     height: 15vh;
 }
 
-
-
 #choices {
     display: flex;
     flex-direction: column;
@@ -80,12 +78,13 @@
 #menu img {
     width: 45vh;
     height: auto;
-    margin-left: -95vh;
+    margin-left: -65vh;
 }
 
 #menu h2 {
     color: white;
     font-weight: 600;
+    font-size: 40px;
 }
 
 #menu span {
@@ -103,7 +102,15 @@ svg {
 }
 
 
+.parfums-toppings {
+    display: flex;
+    gap: 8vh;
 
+}
+
+.parfums-toppings p {
+    font-size: 20px;
+}
 
 
 
