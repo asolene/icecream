@@ -13,6 +13,7 @@
 
 #ourIceCreams p {
     color: #4CBBB8;
+    font-weight: 600;
 }
 
 #iceCreamTitle {
@@ -28,6 +29,7 @@
     justify-items: center;
     align-items: center;
 
+    
     padding-top: 10vh;
     padding-left: 20vh;
 
