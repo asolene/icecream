@@ -1,52 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+
 /* JULIE */
 
-*{margin: 0;}
 
 header {
     background-color: #4CBBB8;
-  }
+}
 
-  li { color : #ECD284;
+li {
+    color: #ECD284;
     font-family: 'Poppins', sans-serif;
     list-style-type: none;
-  }
+}
 
-  ul {display: flex;
+ul {
+    display: flex;
     background-color: white;
-    height: 60px; width: 400px;
+    height: 60px;
+    width: 90vh;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding-right: 40px;
     border-radius: 50px;
-  }
+}
 
-#nav {display: flex;
+#nav {
+    display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 60px;
-  }
-
-#Logo img {width : 60vh;
-  display: flex;
-  justify-content: end;
 }
 
-#Logo h2 {padding-top: 10px;}
+#Logo img {
+    width: 60vh;
+    display: flex;
+    justify-content: end;
+}
 
-#Logo
-{display: flex; flex-direction: column;
- align-items: center;
-padding-left: 20vh;}
+#Logo h2 {
+    padding-top: 10px;
+}
 
-  a {text-decoration: none;}
+#Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20vh;
+}
 
-h2 { color : #ECD284;
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #ECD284;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
-h1 { color : white;
+h1 {
+    color: white;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -55,33 +76,161 @@ h1 { color : white;
     padding-bottom: 15px;
 }
 
-#body p { color : white;
+#body p {
+    color: white;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 15px;
 }
 
-#nuage {min-width : 50px;
+#nuage {
+    min-width: 50px;
 }
 
-#glace img {width : 100vh;
+#glace img {
+    width: 100vh;
 }
 
-#header {display: flex;
-  justify-content: space-between;
+#header {
+    display: flex;
+    justify-content: space-between;
 }
 
-#body {display: flex; flex-direction: column;
-  align-items: center;
-  position : relative;
-  }
-
-#texteheader {position: absolute;
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
-#body img {width: 100%;}
+#texteheader {
+    position: absolute;
+}
 
-hr {width: 100%;height: 20px;
-    border: none;}
+#body img {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: 20px;
+    border: none;
+}
 
 /* JULIE FIN */
+
+/* SOLENE */
+
+
+#ourIceCreams {
+    padding-top: 15vh;
+    padding-left: 30vh;
+}
+
+#ourIceCreams p {
+    color: #4CBBB8;
+    font-weight: 600;
+}
+
+#iceCreamTitle {
+    font-weight: 600;
+    color: #ECD284;
+}
+
+#containerGallery {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    gap: 15px 5px;
+    justify-items: center;
+    align-items: center;
+
+    padding-top: 10vh;
+    padding-left: 20vh;
+
+}
+
+#containerGallery img {
+    width: 45vh;
+}
+
+#containerGallery img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+#menu {
+    background-color: #ECD284;
+
+    display: flex;
+    justify-content: center;
+}
+
+#forClouds {
+    margin-top: 15vh;
+    background-color: #ECD284;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#forClouds img {
+    height: 15vh;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+#choices p {
+    color: white;
+    padding: 5px;
+}
+
+#menu img {
+    width: 45vh;
+    height: auto;
+    margin-left: -65vh;
+}
+
+#menu h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#menu span {
+    color: #DCA9B1;
+    font-weight: 600;
+}
+
+svg {
+    fill: #ffffff
+}
+
+
+#clouds {
+    width: 100%;
+}
+
+
+.parfums-toppings {
+    display: flex;
+    gap: 8vh;
+
+}
+
+.parfums-toppings p {
+    font-size: 20px;
+}
+
+
+
+/* SOLENE FIN*/
+
+
