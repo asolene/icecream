@@ -423,7 +423,7 @@ button:hover {
     .parfums-toppings {
         gap: 4vh;
     }
-
+  
     footer {
         display: flex;
         flex-direction: column;
@@ -434,4 +434,4 @@ button:hover {
     }
 
 
-}
+} 
