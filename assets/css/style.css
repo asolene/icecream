@@ -201,11 +201,11 @@ hr {
     padding: 5px;
 }
 
-#menu img {
+/* #menu img {
     width: 45vh;
     height: auto;
     margin-left: -65vh;
-}
+} */
 
 #menu h2 {
     color: white;
@@ -315,7 +315,7 @@ label {
     padding-bottom: 10px;
 }
 
-button { 
+button {
     margin-top: 15px;
     border: none;
     border-radius: 50px;
@@ -338,4 +338,101 @@ button:hover {
     display: flex;
     justify-content: end;
 }
+
 /* MADALEN FIN*/
+
+/* //////////////////////////////////////////////////////////////// QUERY TIME */
+
+
+
+@media screen and (min-width:375px) and (max-width:1050px) {
+
+    #glace img {
+        display: none;
+    }
+
+    #Logo img {
+        width: 40vh;
+    }
+
+    #Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #forClouds img {
+        height: 5vh;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        height: auto;
+        width: auto;
+    }
+
+    #body img {
+        visibility: hidden;
+    }
+
+    #body {
+        background-color: #4CBBB8;
+    }
+
+    #texteheader {
+        position: relative;
+        padding-left: 10px;
+    }
+
+
+    #containerGallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+
+
+    }
+
+    #ourIceCreams {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    #menu h2 {
+        font-size: 30px;
+    }
+
+    #menu p {
+        font-size: 16px;
+        padding: 2px;
+    }
+
+    .parfums-toppings {
+        gap: 4vh;
+    
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 10vh;
+        gap: 50px;
+
+        padding-left: 10vh;
+        padding-bottom: 5vh;
+    }
+
+
+}
