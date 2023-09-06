@@ -384,6 +384,8 @@ button:hover {
 
     #body {
         background-color: #4CBBB8;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     #texteheader {
@@ -391,14 +393,15 @@ button:hover {
         padding-left: 10px;
     }
 
+    h1 {
+        font-size: 25px;
+    }
 
     #containerGallery {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding-left: 0;
-
-
     }
 
     #ourIceCreams {
@@ -419,17 +422,13 @@ button:hover {
 
     .parfums-toppings {
         gap: 4vh;
-    
     }
-
 
     footer {
         display: flex;
         flex-direction: column;
-
         margin-top: 10vh;
         gap: 50px;
-
         padding-left: 10vh;
         padding-bottom: 5vh;
     }
