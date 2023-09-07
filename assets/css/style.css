@@ -8,8 +8,6 @@
 }
 
 
-/* JULIE */
-
 
 header {
     background-color: #4CBBB8;
@@ -124,9 +122,6 @@ hr {
     justify-content: end;
 }
 
-/* JULIE FIN */
-
-/* SOLENE */
 
 
 #ourIceCreams {
@@ -201,11 +196,6 @@ hr {
     padding: 5px;
 }
 
-/* #menu img {
-    width: 45vh;
-    height: auto;
-    margin-left: -65vh;
-} */
 
 #menu h2 {
     color: white;
@@ -240,9 +230,6 @@ svg {
 
 
 
-/* SOLENE FIN*/
-
-/* MADALEN*/
 
 #cornetbleu {
     width: 150px;
@@ -339,7 +326,7 @@ button:hover {
     justify-content: end;
 }
 
-/* MADALEN FIN*/
+
 
 
 @media screen and (min-width:375px) and (max-width:1050px) {
